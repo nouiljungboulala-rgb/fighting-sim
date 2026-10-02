@@ -1,0 +1,14 @@
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.AssemblyInfoInputs.cache
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.AssemblyInfo.cs
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.csproj.CoreCompileInputs.cache
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\bin\Debug\net10.0\Fight.exe
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\bin\Debug\net10.0\Fight.deps.json
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\bin\Debug\net10.0\Fight.runtimeconfig.json
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\bin\Debug\net10.0\Fight.dll
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\bin\Debug\net10.0\Fight.pdb
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.dll
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\refint\Fight.dll
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.pdb
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\Fight.genruntimeconfig.cache
+C:\Users\noui.ljungboulala\Desktop\programering\fighting sim\Fight\obj\Debug\net10.0\ref\Fight.dll

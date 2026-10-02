@@ -1,0 +1,59 @@
+int main()
+{
+    int playerHealth = 100;
+    int enemyHealth = 100;
+    int choice;
+    int punch;
+ 
+    srand(time(NULL)); /* seed the random numbers so each game is different */
+ 
+    printf("=== BASIC FIGHTING GAME ===\n\n");
+ 
+    while (playerHealth > 0 && enemyHealth > 0)
+    {
+        printf("Your health: %d   Enemy health: %d\n", playerHealth, enemyHealth);
+        printf("1 = Punch   2 = Run away\n");
+        printf("Choice: ");
+        scanf("%d", &choice);
+ 
+        if (choice == 2)
+        {
+            printf("You ran away!\n");
+            break;
+        }
+ 
+        if (choice != 1)
+        {
+            printf("Wrong choice, try again.\n\n");
+            continue;
+        }
+ 
+        /* player punches: random strength from 5 to 20 */
+        punch = rand() % 16 + 5;
+        enemyHealth = enemyHealth - punch;
+        printf("You punch the enemy for %d damage!\n", punch);
+ 
+        if (enemyHealth <= 0)
+        {
+            break;
+        }
+ 
+        /* enemy punches back: random strength from 5 to 20 */
+        punch = rand() % 16 + 5;
+        playerHealth = playerHealth - punch;
+        printf("The enemy punches you for %d damage!\n\n", punch);
+    }
+ 
+    if (enemyHealth <= 0)
+    {
+        printf("\nYou WIN!\n");
+    }
+    else if (playerHealth <= 0)
+    {
+        printf("\nYou LOSE!\n");
+    }
+ 
+    system("pause"); /* keeps the window open in Dev-C++ */
+    return 0;
+}
+ 
